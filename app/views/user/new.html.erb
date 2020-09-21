@@ -1,0 +1,16 @@
+<h1>新規登録</h1>
+
+<body>
+
+  <%= form_tag("/new_account") do %>
+  <p>ユーザー名</p>
+  <input type="string" name="name">
+
+  <p>パスワード</p>
+  <input type="password" name="password">
+
+  <input type="submit" value="新規登録">
+
+  <% end %>
+
+</body>
